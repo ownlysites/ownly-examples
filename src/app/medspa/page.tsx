@@ -17,7 +17,7 @@ export default function Page() {
         <button className="text-xs uppercase tracking-widest border border-[#3D2E2A] px-4 py-2 rounded-full hover:bg-[#3D2E2A] hover:text-[#FAF5EF]">Book</button>
       </header>
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#F4D9C5] via-[#E8C5B0] to-[#D4A88E]" />
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-r from-[#FAF5EF] via-[#FAF5EF]/70 to-transparent" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(255,255,255,0.6),transparent_50%)]" />
         <div className="relative max-w-6xl mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -29,7 +29,7 @@ export default function Page() {
               <button className="border border-[#3D2E2A] text-[#3D2E2A] px-8 py-4 text-xs uppercase tracking-widest hover:bg-[#3D2E2A] hover:text-[#FAF5EF]">Membership</button>
             </div>
           </div>
-          <div className="aspect-[3/4] rounded-sm bg-gradient-to-b from-[#3D2E2A]/10 via-[#8B5A4F]/30 to-[#3D2E2A]/40 relative overflow-hidden">
+          <div className="aspect-[3/4] rounded-sm relative overflow-hidden"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-[#3D2E2A]/70 via-transparent" />
             <div className="absolute bottom-6 left-6 right-6 bg-[#FAF5EF]/90 backdrop-blur p-5 rounded">
               <div className="text-[10px] uppercase tracking-widest text-[#8B5A4F]">Dr. Anika Reyes</div>
               <div className="font-serif text-xl mt-1">14 years aesthetic medicine</div>

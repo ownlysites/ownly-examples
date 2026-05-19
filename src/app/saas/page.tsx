@@ -8,8 +8,7 @@ export default function Page() {
         <nav className="hidden md:flex gap-7 text-sm text-white/70"><a>Product</a><a>Integrations</a><a>Pricing</a><a>Docs</a><a>Customers</a></nav>
         <div className="flex gap-3"><a className="text-sm text-white/70 hover:text-white">Sign in</a><button className="bg-gradient-to-r from-violet-500 to-fuchsia-400 text-white px-5 py-2.5 rounded-lg text-sm font-semibold">Start free</button></div>
       </header>
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(139,92,246,0.25),transparent_50%)]" />
+      <section className="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover opacity-15" /><div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(139,92,246,0.35),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(232,121,249,0.2),transparent_50%)]" />
         <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-28 text-center">
           <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-3 py-1.5 text-xs text-white/80 mb-8"><span className="h-1.5 w-1.5 bg-emerald-400 rounded-full animate-pulse" />Live now · 14,200 teams synced this week</div>

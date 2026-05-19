@@ -20,7 +20,7 @@ export default function Page() {
         <button className="text-xs tracking-widest uppercase border border-[#c4392b] text-[#f3e7d3] px-5 py-2.5 rounded-full bg-[#c4392b]/20 hover:bg-[#c4392b]">Reserve</button>
       </header>
       <section className="relative min-h-screen flex items-end overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1a0e08] via-[#3a1e10] to-[#c4392b]" />
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-b from-[#1a0e08]/60 via-[#3a1e10]/70 to-[#1a0e08]/95" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_70%,rgba(244,165,69,0.4),transparent_60%)]" />
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22600%22><filter id=%22n%22><feTurbulence baseFrequency=%220.8%22/></filter><rect width=%22600%22 height=%22600%22 filter=%22url(%23n)%22 opacity=%220.1%22/></svg>')] mix-blend-overlay" />
         <div className="relative z-10 px-6 md:px-10 pb-24 max-w-5xl">
@@ -50,7 +50,7 @@ export default function Page() {
       </section>
       <section id="chef" className="py-20 md:py-28 px-6 md:px-10 bg-[#0d0805]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-          <div className="aspect-[4/5] bg-gradient-to-br from-[#3a1e10] via-[#c4392b] to-[#f4a545] rounded-sm relative overflow-hidden">
+          <div className="aspect-[4/5] rounded-sm relative overflow-hidden"><img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-[#0d0805] via-[#0d0805]/40 to-transparent" />
             <div className="absolute bottom-6 left-6 text-[#f3e7d3]">
               <div className="font-serif italic text-3xl">Marcus Field</div>
               <div className="text-xs uppercase tracking-widest text-[#f3e7d3]/60 mt-1">Chef · Owner</div>

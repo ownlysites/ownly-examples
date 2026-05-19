@@ -20,7 +20,7 @@ export default function Page() {
         <button className="text-xs tracking-widest uppercase border border-white/40 px-4 py-2 rounded-full backdrop-blur-sm hover:bg-white hover:text-[#1B3140]">Reserve</button>
       </header>
       <section className="relative h-screen w-full overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0d4a5a] via-[#1B3140] to-[#0a1f29]" />
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-b from-[#0d4a5a]/30 via-[#1B3140]/55 to-[#0a1f29]/85" />
         <div className="absolute inset-0 opacity-30 bg-[radial-gradient(ellipse_at_top,rgba(214,180,123,0.5),transparent_60%)]" />
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22800%22><filter id=%22n%22><feTurbulence type=%22fractalNoise%22 baseFrequency=%220.7%22/></filter><rect width=%22600%22 height=%22800%22 filter=%22url(%23n)%22 opacity=%220.08%22/></svg>')] mix-blend-overlay" />
         <div className="relative z-10 h-full flex flex-col justify-end px-8 pb-20 max-w-5xl">
@@ -44,7 +44,7 @@ export default function Page() {
         <div className="grid md:grid-cols-3 gap-6">
           {suites.map(s => (
             <div key={s.name} className="bg-white rounded-2xl overflow-hidden shadow-sm ring-1 ring-[#D6B47B]/20 hover:shadow-xl transition">
-              <div className="aspect-[4/3] bg-gradient-to-br from-[#1B3140] via-[#345567] to-[#D6B47B]/30 relative">
+              <div className="aspect-[4/3] relative overflow-hidden"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-[#1B3140]/70 via-transparent" />
                 <div className="absolute top-4 left-4 text-[#D6B47B] text-xs uppercase tracking-widest">{s.view}</div>
               </div>
               <div className="p-6">
@@ -74,7 +74,7 @@ export default function Page() {
           </div>
           <div className="md:col-span-3 grid grid-cols-2 gap-4">
             {["Cold Smoked Hamachi","Hand-Dived Scallop","Coal-Embered Halibut","Beach Plum Tartlet"].map(d => (
-              <div key={d} className="aspect-square rounded-2xl bg-gradient-to-br from-[#345567] to-[#1B3140] p-6 flex flex-col justify-between ring-1 ring-[#D6B47B]/20">
+              <div key={d} className="aspect-square rounded-2xl relative overflow-hidden ring-1 ring-[#D6B47B]/20"><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-[#1B3140] via-[#1B3140]/60 to-transparent" /><div className="relative h-full p-6 flex flex-col justify-between">
                 <div className="font-serif italic text-[#D6B47B]">{d}</div>
                 <div className="text-xs uppercase tracking-widest text-white/40">Tasting · 2026</div>
               </div>

@@ -14,7 +14,7 @@ export default function Page() {
         <button className="text-xs uppercase tracking-widest border border-[#F8F5EE]/40 px-5 py-2.5 backdrop-blur hover:bg-[#F8F5EE] hover:text-[#1F2418]">Inquire</button>
       </header>
       <section className="relative h-screen w-full overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1F2418] via-[#2D3322] to-[#5B6741]" />
+        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-gradient-to-t from-[#1F2418]/95 via-[#1F2418]/60 to-[#1F2418]/30" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(184,150,98,0.5),transparent_50%)]" />
         <div className="relative z-10 h-full flex flex-col justify-end px-8 pb-20 max-w-6xl">
           <div className="text-xs uppercase tracking-[0.3em] text-[#B89662] mb-6">Coastal Carolina · Lowcountry</div>
@@ -34,7 +34,7 @@ export default function Page() {
         <div className="grid md:grid-cols-3 gap-6">
           {listings.map(l => (
             <div key={l.addr} className="bg-white shadow-sm hover:shadow-2xl transition group">
-              <div className="aspect-[4/3] bg-gradient-to-br from-[#2D3322] via-[#5B6741] to-[#B89662] relative overflow-hidden">
+              <div className="aspect-[4/3] relative overflow-hidden"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" />
                 <div className="absolute top-4 right-4 bg-[#B89662] text-[#1F2418] text-[10px] uppercase tracking-widest px-2 py-1 font-medium">New</div>
                 <div className="absolute bottom-4 left-4 text-[#F8F5EE] text-xs uppercase tracking-widest">{l.view}</div>
               </div>

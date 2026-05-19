@@ -9,7 +9,7 @@ export default function Page() {
         <button className="text-xs uppercase tracking-widest border border-[#C5A05A] text-[#C5A05A] px-5 py-2.5 hover:bg-[#C5A05A] hover:text-[#0F1B2C]">Schedule</button>
       </header>
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0F1B2C] via-[#1B2D45] to-[#0F1B2C]" />
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover opacity-40" /><div className="absolute inset-0 bg-gradient-to-br from-[#0F1B2C] via-[#0F1B2C]/85 to-[#0F1B2C]/95" />
         <div className="absolute inset-0 opacity-30 bg-[url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22600%22><circle cx=%22100%22 cy=%22100%22 r=%221%22 fill=%22%23C5A05A%22/><circle cx=%22250%22 cy=%22200%22 r=%221%22 fill=%22%23C5A05A%22/><circle cx=%22400%22 cy=%22150%22 r=%221%22 fill=%22%23C5A05A%22/><circle cx=%22500%22 cy=%22400%22 r=%221%22 fill=%22%23C5A05A%22/><circle cx=%22150%22 cy=%22450%22 r=%221%22 fill=%22%23C5A05A%22/></svg>')]" />
         <div className="relative max-w-6xl mx-auto px-8">
           <div className="text-xs uppercase tracking-[0.3em] text-[#C5A05A] mb-6">Fee-only · Fiduciary · Discretionary</div>

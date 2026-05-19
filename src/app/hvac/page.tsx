@@ -23,7 +23,7 @@ export default function Page() {
         </a>
       </header>
       <section className="relative overflow-hidden bg-gradient-to-br from-sky-900 via-sky-700 to-cyan-500 text-white">
-        <div className="absolute inset-0 opacity-30 bg-[url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2240%22 height=%2240%22 fill=%22none%22 stroke=%22white%22 stroke-opacity=%220.15%22><path d=%22M0 20h40M20 0v40%22/></svg>')]" />
+        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover opacity-25" />
         <div className="relative max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-block bg-amber-400 text-slate-900 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">⚡ Live · 4 techs available now</div>
@@ -86,7 +86,7 @@ export default function Page() {
               ))}
             </ul>
           </div>
-          <div className="aspect-square bg-gradient-to-br from-sky-700 to-cyan-400 rounded-3xl relative flex items-center justify-center">
+          <div className="aspect-square rounded-3xl relative overflow-hidden flex items-center justify-center"><img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover" /><div className="absolute inset-0 bg-sky-700/55" />
             <div className="bg-white px-6 py-4 rounded-2xl shadow-2xl">
               <div className="font-bold text-lg">Service Area Map</div>
               <div className="text-xs text-slate-500 mt-1">Live · Updated daily</div>

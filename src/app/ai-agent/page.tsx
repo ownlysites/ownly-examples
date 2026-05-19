@@ -8,8 +8,7 @@ export default function Page() {
         <nav className="hidden md:flex gap-8 text-sm text-white/70"><a>How it works</a><a>Live demo</a><a>Pricing</a><a>For agencies</a></nav>
         <div className="flex gap-3"><a className="text-sm text-white/70 hover:text-white hidden md:block">Sign in</a><button className="bg-cyan-400 text-[#020817] px-5 py-2.5 rounded-full text-sm font-bold">Try it free</button></div>
       </header>
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(34,211,238,0.18),transparent_50%)]" />
+      <section className="relative overflow-hidden"><img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&auto=format&fit=crop&q=82" alt="" className="absolute inset-0 w-full h-full object-cover opacity-20" /><div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(34,211,238,0.25),transparent_50%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,rgba(59,130,246,0.2),transparent_50%)]" />
         <div className="relative max-w-7xl mx-auto px-6 py-16 md:py-20 grid lg:grid-cols-2 gap-12 items-center">
           <div>
