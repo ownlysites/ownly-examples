@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --ink: #0B2545; --paper: #F5F7FA; }
+html, body { background: var(--paper); color: var(--ink); }
